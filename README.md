@@ -1,6 +1,6 @@
 # Switchblade
 
-A self-written generated poem using the Vue.js framework. The typing animation is brought to life through the Typed.js library, with inspiration drawn from the distinctive typing style of ChatGPT. Once the poem is all typed up, the color scheme transitions from "light" to "dark" mode.
+A self-written generated poem using the Vue.js framework. The typing animation is brought to life through the Typed.js library, with the typing cursor style vaguely reminiscent of ChatGPT's. Once the poem is all typed up, the color scheme transitions from light to dark mode.
 
 ## Development
 
