@@ -1,0 +1,114 @@
+@font-face {
+  font-family: RSMR;
+  src: url('/fonts/PPRightSerifMono-Regular.otf');
+}
+
+@font-face {
+  font-family: RSMF;
+  src: url('/fonts/PPRightSerifMono-Fine.otf');
+}
+
+@font-face {
+  font-family: RGMR;
+  src: url('/fonts/PPRightGroteskMono-Regular.otf');
+}
+
+* {
+  text-decoration: none;
+}
+
+html, 
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: var(--bg);
+  cursor: url('/img/default.png'), auto;
+  color: var(--text);
+}
+
+:root {
+  --bg: #ECE3D5;
+  --text: #173564;
+  --selection: #FF5C5C;
+  --hover: #FEDE5D;
+  --fw: 100;
+}
+
+::selection {
+  color: var(--bg);
+  background: var(--selection);
+}
+
+h1 {
+  font-family: RSMR;
+  font-weight: var(--fw);
+  font-size: 40px;
+}
+
+h2, #typed{
+  font-family: RSMF;
+  font-weight: var(--fw);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.context{
+  font-family: RGMR;
+}
+
+.button {
+  font-family: RGMR;
+  font-size: 20px;
+  border: 1px dashed;
+  border-color: var(--text);
+  border-radius: 10px;
+  background-color: var(--bg);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: url('/img/pointer.png'), auto;
+}
+
+.button:hover{
+  background-color: var(--hover);
+  transition: 0.5s;
+  cursor: url('/img/pointer.png'),auto;
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 100px; 
+}
+
+.content-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.typed-cursor {
+  opacity: 1;
+  animation: blink .5s infinite;
+}
+
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content-container{
+      width: 85%;
+  }
+}
