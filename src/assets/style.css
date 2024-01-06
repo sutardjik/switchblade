@@ -106,9 +106,3 @@ h2, #typed{
       opacity: 1;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .content-container{
-      width: 85%;
-  }
-}
