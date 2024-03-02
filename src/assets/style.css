@@ -29,9 +29,9 @@ body {
 }
 
 :root {
-  --bg: #ECE3D5;
+  --bg: #E8E8E8;
   --text: #173564;
-  --selection: #FF5C5C;
+  --selection: #FF3939;
   --hover: #FEDE5D;
   --fw: 100;
 }

@@ -19,10 +19,10 @@
           var rootElement = this.$root.$el;
           if (rootElement) {
             rootElement.style.backgroundColor = "#173564";
-            rootElement.style.color = "#ECE3D5";
+            rootElement.style.color = "#E8E8E8";
             var button = document.querySelector(".button");
             if (button) {
-                button.style.backgroundColor = "#ECE3D5";
+                button.style.backgroundColor = "#E8E8E8";
                 button.addEventListener("mouseenter", () => {
                     button.style.backgroundColor = "#FEDE5D";
               });
